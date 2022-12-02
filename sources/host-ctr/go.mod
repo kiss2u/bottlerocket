@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/aws/aws-sdk-go v1.44.105
 	github.com/awslabs/amazon-ecr-containerd-resolver v0.0.0-20220819200530-62ff677402cc
-	github.com/containerd/containerd v1.6.8
+	github.com/containerd/containerd v1.6.10
 	github.com/opencontainers/runtime-spec v1.0.3-0.20220718201635-a8106e99982b
 	github.com/pelletier/go-toml v1.9.5
 	github.com/pkg/errors v0.9.1
@@ -25,7 +25,7 @@ replace k8s.io/cri-api => k8s.io/cri-api v0.24.5
 
 require (
 	github.com/Microsoft/go-winio v0.6.0 // indirect
-	github.com/Microsoft/hcsshim v0.9.4 // indirect
+	github.com/Microsoft/hcsshim v0.9.5 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
